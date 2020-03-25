@@ -1,13 +1,96 @@
-.jumbotron {
-    background-image:url("Tiny-Horse-Marketing-Agency-Contact.jpg");
 
+
+nav {
+	height: 88px;
+	padding: 0 40px;
+}
+nav li {
+	padding: 0 13px;
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	letter-spacing: 1px
+	text-transform: uppercase;
+}
+nav li a {
+	text-decoration: none;
+	color: #ffffff;
+	transition: background-color 0.4s ease-in-out,color 0.4s ease-in-out,border-color 0.4s ease-in-out;
+}
+nav li a:hover {
+	color:white;
+	border-bottom: 2px solid #ce6451;
+}
+nav img {
+	max-height: 88px;
+	width: auto;
 }
 
-.navbar {
-    background-color: #212326;
+
+.carousel-caption {
+color: #F4EAE9;
+font-size: 60px;
+font-family: big-casion-fb, serif;
+/*padding:300px;*/
+text-align: left;
 }
+
 
 .col-sm {
 	font-size: 30px; 
 }
 
+.form{
+	background-color: #f8f8f8;
+}
+
+.form-control {
+	background-color: #969696;
+}
+
+.container {
+	display:block;
+	height: 200px;
+	width: auto;
+	background color: #F4EAE9;
+}
+
+.row{
+	text-decoration: underline;
+}
+
+.button {
+	hover:color:#969696;
+
+}
+
+
+
+
+/*
+footer css
+*/
+
+
+footer {
+    background-color: #212326;
+    padding: 100px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+}
+.bottom-footer {
+    display: flex;
+    justify-content: left;
+    font-size: 8pt;
+    padding-top: 20px;
+}
+.bottom-footer p{
+    color: #5C7C91;
+}
+.bottom-footer a {
+    color: #5C7C91;
+}
